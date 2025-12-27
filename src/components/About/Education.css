@@ -1,0 +1,118 @@
+.education-card {
+  background: rgba(30, 30, 60, 0.3);
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 30px;
+  border: 1.7px solid rgba(94, 96, 206, 0.6);
+  box-shadow: 4px 5px 4px 3px rgba(72, 191, 227, 0.15);
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  transform: scale(1.02);
+  border: 2.2px solid rgba(86, 207, 225, 0.85);
+}
+
+.education-card-body {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.education-logo {
+  flex-shrink: 0;
+}
+
+.university-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7400b8, #48bfe3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border: 3px solid rgba(86, 207, 225, 0.5);
+}
+
+.university-logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-university {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #80ffdb, #48bfe3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.education-degree {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+}
+
+.education-duration {
+  font-size: 1em;
+  color: rgba(200, 200, 200, 0.8);
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.education-description {
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.8;
+}
+
+.education-description p {
+  margin-bottom: 10px;
+}
+
+.education-description ul {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.education-description li {
+  margin-bottom: 8px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 25px;
+}
+
+.education-description li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #64dfdf;
+  font-size: 1.2em;
+}
+
+@media (max-width: 767px) {
+  .education-card-body {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .education-university {
+    font-size: 1.3em;
+  }
+  
+  .education-degree {
+    font-size: 1.1em;
+  }
+}
