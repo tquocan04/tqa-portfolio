@@ -126,7 +126,8 @@ function NavBar() {
                 display: "flex", 
                 gap: "8px", 
                 alignItems: "center",
-                padding: "0.8rem 1rem"
+                padding: "0.5rem 1rem",
+                justifyContent: "center"
               }}>
                 <button
                   onClick={() => setLanguage('vi')}
@@ -135,13 +136,17 @@ function NavBar() {
                     border: language === 'vi' ? "2px solid #5e60ce" : "2px solid transparent",
                     borderRadius: "4px",
                     cursor: "pointer",
-                    padding: "2px 5px",
-                    fontSize: "1.2em",
+                    padding: "4px 8px",
+                    fontSize: "1.1em",
                     transition: "all 0.3s ease",
                     transform: language === 'vi' ? "scale(1.05)" : "scale(1)",
-                    lineHeight: "1"
+                    lineHeight: "1",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
                   }}
                   title="Tiếng Việt"
+                  aria-label="Switch to Vietnamese"
                 >
                   🇻🇳
                 </button>
@@ -152,13 +157,17 @@ function NavBar() {
                     border: language === 'en' ? "2px solid #5e60ce" : "2px solid transparent",
                     borderRadius: "4px",
                     cursor: "pointer",
-                    padding: "2px 5px",
-                    fontSize: "1.2em",
+                    padding: "4px 8px",
+                    fontSize: "1.1em",
                     transition: "all 0.3s ease",
                     transform: language === 'en' ? "scale(1.05)" : "scale(1)",
-                    lineHeight: "1"
+                    lineHeight: "1",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
                   }}
                   title="English"
+                  aria-label="Switch to English"
                 >
                   🇬🇧
                 </button>

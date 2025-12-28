@@ -70,7 +70,8 @@ function Projects() {
               isBlog={false}
               title={t.projects.skyeEducation.title}
               description={t.projects.skyeEducation.description}
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://www.skyeeducation.com/"
+              demoText="Website"
             />
           </Col>
 

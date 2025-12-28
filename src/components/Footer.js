@@ -69,15 +69,15 @@ function Footer() {
         </Col>
       </Row>
       <Row>
-        <Col md="4" className="footer-copywright">
+        {/* <Col md="4" className="footer-copywright">
           <h3>Developed by Tran Quoc An</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
+        </Col> */}
+        <Col md="" className="footer-copywright">
           <h3>Copyright © {year} Tran Quoc An</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        {/* <Col md="4" className="footer-body">
           <h3>Modified by Tran Quoc An</h3>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );

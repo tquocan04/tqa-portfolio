@@ -50,7 +50,7 @@ function ProjectCards(props) {
             style={{ marginLeft: props.ghLink ? "10px" : "0" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {props.demoText || "Demo"}
           </Button>
         )}
       </Card.Body>
