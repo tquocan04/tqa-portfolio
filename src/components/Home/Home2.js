@@ -53,7 +53,16 @@ function Home2() {
                 src={myImg} 
                 className="img-fluid" 
                 alt="avatar" 
-                style={{ borderRadius: "50%", boxShadow: "0 4px 20px rgba(94, 96, 206, 0.4)" }}
+                style={{ 
+                  borderRadius: "50%", 
+                  boxShadow: "0 4px 20px rgba(94, 96, 206, 0.4)",
+                  width: "400px",
+                  height: "400px",
+                  objectFit: "cover",
+                  objectPosition: "center",
+                  display: "block",
+                  margin: "0 auto"
+                }}
               />
             </Tilt>
           </Col>
