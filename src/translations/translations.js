@@ -115,7 +115,7 @@ export const translations = {
       hpt: {
         role: "Software Engineer Intern",
         company: "HPT Vietnam Corporation",
-        duration: "August 2025 - November 2025",
+        duration: "August 2025 - October 2025",
         desc1: "Participated in the development of 'SmartNOC Breakthrough Plan 2025-2030'"
       },
       freelance: {
@@ -273,7 +273,7 @@ export const translations = {
       hpt: {
         role: "Thực tập sinh Kỹ sư Phần mềm",
         company: "Công ty Cổ phần Dịch vụ Công nghệ Tin học HPT",
-        duration: "Tháng 8 2025 - Tháng 11 2025",
+        duration: "Tháng 8 2025 - Tháng 10 2025",
         desc1: "Tham gia phát triển 'Kế hoạch đột phá SmartNOC 2025-2030'"
       },
       freelance: {

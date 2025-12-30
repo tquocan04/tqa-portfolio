@@ -27,7 +27,7 @@ function Experience() {
                 </h4>
               </div>
               <div className="experience-duration">
-                {t.experience?.hpt?.duration || "August 2024 - November 2024"}
+                {t.experience?.hpt?.duration || "August 2025 - October 2025"}
               </div>
             </div>
             <div className="experience-description">
@@ -51,7 +51,7 @@ function Experience() {
                 </h4>
               </div>
               <div className="experience-duration">
-                {t.experience?.freelance?.duration || "January 2024 - July 2024"}
+                {t.experience?.freelance?.duration || "January 2025 - July 2025"}
               </div>
             </div>
             <div className="experience-description">
