@@ -1,76 +1,34 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# 🚀 Personal Portfolio - Quoc An Tran
 
-<br/>
+Welcome to the repository of my personal portfolio website. This project serves as a comprehensive showcase of my software engineering projects, technical skills, and professional journey.
 
-<center>
+🌐 **Visit Portfolio:** [tqa-portfolio](https://tqa-portfolio.vercel.app/)
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+---
 
-</center>
+## 👨‍💻 About The Project
+Welcome to my personal workspace! This repository houses the source code for my professional portfolio website. It is a centralized hub where I showcase my journey as a **Software Engineer**, highlighting my technical evolution and the projects I've built.
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## 🛠 Tech Stack
+I leveraged a modern development stack to ensure scalability and performance:
+* **Frontend:** `React.js` with `React-Bootstrap` for structural components.
+* **Animations:** `Framer Motion` and `Typewriter-effect` for an engaging UI.
+* **Styling:** `CSS3` with a focus on custom Dark Mode aesthetics.
+* **Deployment:** `Vercel` for continuous integration and delivery.
 
-## TL;DR
+## 🌟 Key Features
+- **Modern UI/UX:** Optimized Dark Mode with interactive particles and smooth transitions.
+- **Fully Responsive:** Ensures a perfect viewing experience across all devices, from mobile to desktop.
+- **Dynamic Content:** Integrated with GitHub API to reflect my real-time coding activity and contributions.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## 📁 Project Structure
+- `src/components`: The core UI building blocks (Home, About, Projects, Resume).
+- `src/assets`: Stores images, icons, and media assets used throughout the site.
+- `public`: Static resources and global configuration files.
 
-## Built With
+---
+*Thank you for visiting my repository! Feel free to reach out via the contact information provided on the website if you'd like to connect or discuss potential opportunities.*
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+<p align="center">
+  <i>Developed with ❤️ by Quoc An Tran</i>
+</p>
