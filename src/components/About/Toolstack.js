@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import vsCode from "../../Assets/TechIcons/vscode.svg";
 import visualStudio from "../../Assets/TechIcons/VisualStudio.svg";
-import vim from "../../Assets/TechIcons/Vim.svg";
+import neovim from "../../Assets/TechIcons/neovim.svg";
 
 function Toolstack() {
   return (
@@ -21,8 +21,8 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={vim} alt="Vim" className="tech-icon-images" />
-        <div className="tech-icons-text">Vim (Neovim)</div>
+        <img src={neovim} alt="Neovim" className="tech-icon-images" />
+        <div className="tech-icons-text">Neovim</div>
       </Col>
     </Row>
   );

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient x1="167.95833" y1="-0.46142399" x2="167.95833" y2="335.45523" id="linearGradient-1" gradientTransform="scale(0.46142398,2.1672042)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16B0ED" stop-opacity="0.800235524" offset="0%"/>
+      <stop stop-color="#0F59B2" stop-opacity="0.83700023" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="1118.3427" y1="-0.46586797" x2="1118.3427" y2="338.68604" id="linearGradient-2" gradientTransform="scale(0.46586797,2.1465309)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DB643" offset="0%"/>
+      <stop stop-color="#367533" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="356.33795" y1="0" x2="356.33795" y2="612.90131" id="linearGradient-3" gradientTransform="scale(0.84189739,1.1877932)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#88C649" stop-opacity="0.8" offset="0%"/>
+      <stop stop-color="#439240" stop-opacity="0.84" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(0.34367476,0,0,0.34367476,25.312651,1.7737533)" style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g transform="translate(2,3)">
+      <path d="M 0,155.5704 155,-1 V 727 L 0,572.23792 Z" style="fill:url(#linearGradient-1)"/>
+      <path d="M 443.0604,156.9824 600,-1 596.81879,727 442,572.21994 Z" transform="matrix(-1,0,0,1,1042,0)" style="fill:url(#linearGradient-2)"/>
+      <path d="M 154.98629,0 558,615.1897 445.2246,728 42,114.17202 Z" style="fill:url(#linearGradient-3)"/>
+      <path d="M 155,283.83232 154.78675,308 31,124.71061 42.461949,113 Z" style="fill:#000000;fill-opacity:0.12999998"/>
+    </g>
+  </g>
+</svg>
