@@ -7,7 +7,6 @@ import Flowlite from "../../Assets/Projects/Flowlite-HomePage.png";
 import arc from "../../Assets/Projects/home_arc.png";
 import hoblemail from "../../Assets/Projects/hoblemail.png";
 import sky from "../../Assets/Projects/homesky.png";
-import nutritionapp from "../../Assets/Projects/nutritionapp.jpg";
 
 function Projects() {
   const t = useTranslation();
