@@ -132,44 +132,50 @@ function NavBar() {
                 <button
                   onClick={() => setLanguage('vi')}
                   style={{
-                    background: "none",
-                    border: language === 'vi' ? "2px solid #5e60ce" : "2px solid transparent",
-                    borderRadius: "4px",
+                    background: language === 'vi' ? "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" : "none",
+                    border: language === 'vi' ? "2px solid #5e60ce" : "2px solid #a0a0a0",
+                    borderRadius: "6px",
                     cursor: "pointer",
-                    padding: "4px 8px",
-                    fontSize: "1.1em",
+                    padding: "6px 12px",
+                    fontSize: "0.95em",
+                    fontWeight: language === 'vi' ? "600" : "500",
+                    color: language === 'vi' ? "#ffffff" : "#c0c0c0",
                     transition: "all 0.3s ease",
                     transform: language === 'vi' ? "scale(1.05)" : "scale(1)",
                     lineHeight: "1",
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center"
+                    justifyContent: "center",
+                    letterSpacing: "0.5px"
                   }}
                   title="Tiếng Việt"
                   aria-label="Switch to Vietnamese"
                 >
-                  🇻🇳
+                  VN
                 </button>
                 <button
                   onClick={() => setLanguage('en')}
                   style={{
-                    background: "none",
-                    border: language === 'en' ? "2px solid #5e60ce" : "2px solid transparent",
-                    borderRadius: "4px",
+                    background: language === 'en' ? "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" : "none",
+                    border: language === 'en' ? "2px solid #5e60ce" : "2px solid #a0a0a0",
+                    borderRadius: "6px",
                     cursor: "pointer",
-                    padding: "4px 8px",
-                    fontSize: "1.1em",
+                    padding: "6px 12px",
+                    fontSize: "0.95em",
+                    fontWeight: language === 'en' ? "600" : "500",
+                    color: language === 'en' ? "#ffffff" : "#c0c0c0",
                     transition: "all 0.3s ease",
                     transform: language === 'en' ? "scale(1.05)" : "scale(1)",
                     lineHeight: "1",
                     display: "flex",
                     alignItems: "center",
-                    justifyContent: "center"
+                    justifyContent: "center",
+                    letterSpacing: "0.5px"
                   }}
                   title="English"
                   aria-label="Switch to English"
                 >
-                  🇬🇧
+                  EN
                 </button>
               </div>
             </Nav.Item>
